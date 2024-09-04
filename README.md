@@ -1,5 +1,8 @@
 # Led-control-using-Arduino
-
+```
+Name: KARTHIKEYAN M
+Reg.no: 212223110020
+```
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
