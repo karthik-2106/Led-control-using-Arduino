@@ -1,7 +1,6 @@
 ## Name: KARTHIKEYAN M
 ## Reg.no: 212223110020
-# EX 01
-# Led control using Arduino
+# EX 01 Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
