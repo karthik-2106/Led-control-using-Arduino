@@ -1,8 +1,8 @@
-# Led-control-using-Arduino
-```
-Name: KARTHIKEYAN M
-Reg.no: 212223110020
-```
+# Name: KARTHIKEYAN M
+# Reg.no: 212223110020
+# EX 01
+# Led control using Arduino
+
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -27,7 +27,6 @@ Step 8 GO to sketch and select verify to upload the program in the Arduino board
 Step 9 Press the push button and observe the LED's behavior </br>
 
 ## THEORY
-
 ### Introduction 
 
 LED pushbutton code is a program written for the Arduino UNO microcontroller that controls an LED using a pushbutton. When the pushbutton is pressed, the code reads the state of the button and turns the LED on or off accordingly.
@@ -49,7 +48,6 @@ LED is a semiconductor light source. It consists of a PN Junction Diode and when
 
 ### Working 
 In the setup function, the pin mode for the LED and pushbutton pins are set using the pinMode function. The pin mode for the LED pin is set to OUTPUT, and the pin mode for the pushbutton pin is set to INPUT.In the loop function, the state of the pushbutton is read using the digitalRead function. If the pushbutton is pressed (HIGH state), the LED is turned on using the digitalWrite function. If the pushbutton is not pressed (LOW state), the LED is turned off. This process is repeated continuously, with the state of the pushbutton and the state of the LED being continuously checked and updated.
-
 ![image](https://github.com/anishkumar-Embedded/Led-control-using-Arduino/assets/71547910/8b4930b4-4040-46ab-9e2e-d3277559ae6f)
 
 ### Applications
@@ -81,9 +79,9 @@ digitalWrite(ledPin, HIGH);
 }
 ```
 ## OUTPUT
+## OFF
 ![Screenshot 2024-09-04 142909](https://github.com/user-attachments/assets/81b8e7a6-8b5c-41f3-a039-3026a9fb4e28)
+## ON
 ![Screenshot 2024-09-04 142945](https://github.com/user-attachments/assets/d840587f-2879-4c27-8014-5a9a9b7a89f9)
-
-
 ## RESULT
 Thus To design and implement a system for LED control using an Arduino microcontroller and a push button is successfully verified.
