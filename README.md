@@ -1,5 +1,5 @@
-# Name: KARTHIKEYAN M
-# Reg.no: 212223110020
+## Name: KARTHIKEYAN M
+## Reg.no: 212223110020
 # EX 01
 # Led control using Arduino
 
