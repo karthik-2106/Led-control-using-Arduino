@@ -1,7 +1,6 @@
 ## Name: KARTHIKEYAN M
 ## Reg.no: 212223110020
 # EX 01 Led control using Arduino
-
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -27,7 +26,6 @@ Step 9 Press the push button and observe the LED's behavior </br>
 
 ## THEORY
 ### Introduction 
-
 LED pushbutton code is a program written for the Arduino UNO microcontroller that controls an LED using a pushbutton. When the pushbutton is pressed, the code reads the state of the button and turns the LED on or off accordingly.
 
 ### Arduino 
@@ -38,17 +36,13 @@ Arduino Uno. It is a microcontroller board developed by Arduino.cc and is based 
 ### Push button
 Push button switches or push switches are small lever-like devices used to create or break an electronic circuit. It is also used to control actions in machines that ruin electronics. In simple words, push button switches are used to run or stop electrical appliances or circuits.Connecting a push button with an Arduino is very simple. Connect one terminal of the push button to the ground pin and another terminal to any Arduino digital pins. Here you have to use a pull-up resistor (10k Ω) to keep the voltage HIGH when you are not pressing the button.
 The pullup resistor is nothing but a high-value resistor connecting to the Arduino digital pin you are using with the HIGH (5v) voltage.
-
 ![image](https://github.com/anishkumar-Embedded/Led-control-using-Arduino/assets/71547910/afa696a5-5cdf-4b58-aaee-983089e03130)
-
 ### Led
 LED is a semiconductor light source. It consists of a PN Junction Diode and when voltage is applied to the LED, electrons and holes recombine in the PN Junction and release energy in the form of light (Photons).The light emitted by an LED is usually monochromatic i.e. of single color and the color is dependent on the energy band gap of the semiconductor.Light Emitting Diodes can be manufactured to emit all the wavelengths of visible spectrum i.e. from Red (620nm to 750nm) to blue – violet (380nm to 490nm).The electrical symbol of an LED is similar to that of a PN Junction Diode
 ![image](https://github.com/anishkumar-Embedded/Led-control-using-Arduino/assets/71547910/d7a70bbf-453c-47af-9215-9a6e252f9503)
-
 ### Working 
 In the setup function, the pin mode for the LED and pushbutton pins are set using the pinMode function. The pin mode for the LED pin is set to OUTPUT, and the pin mode for the pushbutton pin is set to INPUT.In the loop function, the state of the pushbutton is read using the digitalRead function. If the pushbutton is pressed (HIGH state), the LED is turned on using the digitalWrite function. If the pushbutton is not pressed (LOW state), the LED is turned off. This process is repeated continuously, with the state of the pushbutton and the state of the LED being continuously checked and updated.
 ![image](https://github.com/anishkumar-Embedded/Led-control-using-Arduino/assets/71547910/8b4930b4-4040-46ab-9e2e-d3277559ae6f)
-
 ### Applications
 Interactive Light Display </br>
 Educational Game for Children </br>
@@ -56,10 +50,8 @@ Home Automation </br>
 Security System Indicator </br>
 Emergency Signaling System </br>
 Weighing Machines </br>
-
 ## CIRCUIT DIAGRAM
 ![image](https://github.com/user-attachments/assets/a606e3ef-ded8-4677-aa25-14d85a75384a)
-
 ## PROGRAM
 ```
 const int ledPin = 12;
